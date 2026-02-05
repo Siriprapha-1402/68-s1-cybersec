@@ -1,0 +1,11 @@
+services:
+  s1app:
+    image: postgres:latest
+    container_name: 68-s1-app
+    environment:
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_CLIENT: ${DATABASE_CLIENT}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_PORT: ${DATABASE_PORT}
