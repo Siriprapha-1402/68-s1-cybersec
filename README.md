@@ -16,3 +16,9 @@ cp env.simple .env
 docker compose -f db.yaml up # nonitoring
 docker compose -f db.yaml up -d # backaround
 ```
+
+### Admin
+```sh
+docker compose -f admin.yaml up # nonitoring
+docker compose -f admin.yaml up -d # backaround
+```
