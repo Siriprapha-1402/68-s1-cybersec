@@ -3,7 +3,7 @@ services:
     image: postgres:latest
     container_name: 68-s1-app
     ports:
-      ${DATSBETE_PORT}1377
+      - 8081:1138
     environment:
       DATABASE_USERNAME: ${DATABASE_USERNAME}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
