@@ -3,7 +3,7 @@ services:
     image: postgres:latest
     container_name: 68-s1-database
     ports:
-      ${DATSBETE_PORT}5432
+      - 55434:5432
     environment:
       POSTGRES_USER: ${DATSBETE_USER}
       POSTGRES_DB: ${DATSBETE_NAME}
